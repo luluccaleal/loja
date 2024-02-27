@@ -1,7 +1,98 @@
 *{
-margin:0px;
+margin: 1px;
 box-sizing: border-box;
+margin-bottom: -7px;
+}
+.imgtopo{
+    align-self: center;
+}
+.body {
+    background-color:#f4f3f8;
+    font-family: calibri;
+    font-size: 22px;
+    color: darkblue;
 }
 .menu{
-    margin-right:auto ;
+    display: flex;
+    list-style: none;
+    margin-left: 100pxpx;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 58px 
+}
+.titulo{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.img{
+    width: 100%;
+}
+.titulo2 {
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.grade{
+    width: 300px;
+    margin-block: 65px;
+    display: flex;
+}
+.itens{
+    background-color: darkgray;
+    padding: 20px;
+    margin-bottom: 60px;
+    width: 300px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.item{
+    font-size: 20px;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 20px;
+}
+.p3{
+    font-size: 20px;
+}
+.p4{
+    font-size: 20px;
+}
+.p5{
+    font-size: 20px;
+}
+.p6{
+    font-size: 20px;
+}
+.itensp{
+    background-color: beige;
+    padding: 61px;
+    margin-bottom: 60px;
+    width: 820px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.itemp{
+    font-size: 38px;
+}
+
+.produtos {
+    background-color: #f4f3f8;
+    font-family: calibri;
+    font-size: 20px;
+    color: red;
 }
