@@ -1,82 +1,99 @@
 *{
-margin: 9px;
+margin: 0px;
 box-sizing: border-box;
-margin-bottom: -7px;
+
+
 }
-.imgtopo{
-    align-self: center;
+.topo{
+    background-color: darkgray;
+    padding: 10px;
+    font-size: 15px;
 }
+.logo1 img{
+    width: 50px;
+    height: 50px;
+}
+
 .body {
     background-color:#f4f3f8;
     font-family: calibri;
     font-size: 22px;
     color: darkblue;
 }
+
+.navegacao{
+    display: flex;
+}
+
 .menu{
     display: flex;
     list-style: none;
-    margin-left: 100pxpx;
-    flex-direction: row-reverse;
+    margin-left: 133px;
     align-items: center;
-    margin-bottom: 58px 
+    font-size: 22px;
+    justify-content: flex-end;
 }
+
 .titulo{
     text-align: center;
     text-decoration: none;
     margin-bottom: 30px;
     font-size: 40px;
+    color: darkblue;
 }
+
 .img{
     width: 100%;
 }
+
 .titulo2 {
     text-align: center;
     text-decoration: none;
     margin-bottom: 30px;
     font-size: 40px;
+    color: darkblue;
 }
+
 .subtitulo{
     text-align: center;
-    font-size: 30px;
-    margin-bottom: 100px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
+
 .grade{
-    width: 300px;
-    margin-block: 65px;
-    display: flex;
+    margin-block: 53px;
+    display: grid;
+    gap: 29px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
+
 .itens{
     background-color: darkgray;
-    padding: 20px;
-    margin-bottom: 60px;
-    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 296px;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 22px;
+    color: darkblue;
 }
+
+.itens img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .item{
     font-size: 20px;
 }
+
 .p1{
-    font-size: 20px;
+    font-size: 16px;
+    color: darkblue;
 }
-.p2{
-    font-size: 20px;
-}
-.p3{
-    font-size: 20px;
-}
-.p4{
-    font-size: 20px;
-}
-.p5{
-    font-size: 20px;
-}
-.p6{
-    font-size: 20px;
-}
+
 .itensp{
     background-color: beige;
     padding: 61px;
@@ -88,6 +105,7 @@ margin-bottom: -7px;
     display: grid;
     justify-items: center;
 }
+
 .itemp{
     font-size: 38px;
 }
@@ -98,3 +116,28 @@ margin-bottom: -7px;
     font-size: 20px;
     color: red;
 }
+
+.preço{
+    color: red;
+}
+
+@media (min-width:768px) {
+    .logo1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .menu{
+        display: flex;
+        margin-left: auto;
+        justify-content: flex-end;
+        padding: 21px;;
+    }
+    .subtitulo{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 56px 
+    }
+
+}
+
+
